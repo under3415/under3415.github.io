@@ -1,12 +1,17 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "io.github.under3415.wikitreeviewer",
       "sha256_cert_fingerprints": [
         "D0:D6:D7:2C:EF:81:EC:85:F7:F9:18:53:13:4E:29:99:05:09:1D:3E:36:86:E6:7B:6A:AB:62:86:A9:A9:70:83",
-        "A4:B6:0E:65:4E:9F:03:E0:B8:90:6D:89:EE:1B:9E:11:B1:87:B7:F3:AB:51:2B:D5:6C:C4:CF:34:D1:13:09:D1"
+        "A4:B6:0E:65:4E:9F:03:E0:B8:90:6D:89:EE:1B:9E:11:B1:87:B7:F3:AB:51:2B:D5:6C:C4:CF:34:D1:13:09:D1",
+        "5F:6B:6E:F6:F6:8D:1E:30:6D:02:02:48:B2:5F:5F:2A:41:69:5B:6E:28:4D:F6:C9:94:EF:0C:5F:E1:7A:B1:82",
+        "23:CB:49:08:49:74:01:2F:58:B7:33:9B:6B:DD:39:D3:07:C1:78:98:F4:AB:17:E7:95:7C:FC:C2:F3:F2:29:4E"
       ]
     }
   }
